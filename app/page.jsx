@@ -14,9 +14,9 @@ import { menuItems } from "@/data/menu";
 
 export const metadata = {
   title:
-    "Home 1 Main Demo MultiPage || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Qubent Solutions – Intent-Driven IT | Design with Empathy, Code with Clarity",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Qubent Solutions blends user-centered design with clean, scalable code to deliver IT solutions that are as thoughtful as they are powerful. Design with empathy, code with clarity.",
 };
 
 export default function Home() {

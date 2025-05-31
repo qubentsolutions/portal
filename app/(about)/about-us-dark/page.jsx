@@ -18,9 +18,9 @@ import { menuItemsDark } from "@/data/menu";
 
 export const metadata = {
   title:
-    "Main About 3 Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "About Qubent Solutions | Intent-Driven Tech Built with Purpose",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Discover the vision behind Qubent Solutions. We design with empathy, code with clarity, and build tech solutions that solve real problems with intent and impact.",
 };
 export default function MainAboutPage3Dark() {
   return (

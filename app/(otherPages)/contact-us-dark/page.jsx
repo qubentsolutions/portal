@@ -16,9 +16,9 @@ import Contact2 from "@/components/homes/home-1/Contact2";
 import { menuItemsDark } from "@/data/menu";
 export const metadata = {
   title:
-    "Main About 1 Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Contact Qubent Solutions | Let’s Build with Purpose",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Get in touch with Qubent Solutions. Whether you have an idea, project, or partnership in mind—we’re ready to collaborate with empathy and clarity.",
 };
 export default function MainAboutPage1Dark() {
   return (

@@ -15,9 +15,9 @@ import Image from "next/image";
 import { menuItemsDark } from "@/data/menu";
 export const metadata = {
   title:
-    "Services-dark",
+    "Our Services | Innovative IT Solutions Tailored with Intent",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Explore our full range of IT services—from UI/UX design to full-stack development. At Qubent Solutions, we build purposeful, scalable, and human-centered tech.",
 };
 export default function MainServicesPage3Dark() {
   return (

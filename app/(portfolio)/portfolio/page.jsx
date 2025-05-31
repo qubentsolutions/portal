@@ -9,9 +9,9 @@ import Portfolio from "@/components/portfolio/Portfolio";
 import { menuItems } from "@/data/menu";
 export const metadata = {
   title:
-    "Portfolio",
+    "Our Work | Qubent Solutions Portfolio of Purposeful Projects",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Browse our portfolio to see how Qubent Solutions blends design empathy with clean code to deliver impactful software, apps, and digital platforms.",
 };
 export default function MainPortfolioPageBoxed3Col() {
   return (
