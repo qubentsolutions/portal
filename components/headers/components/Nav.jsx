@@ -24,17 +24,17 @@ export default function OnePageNav({ links, animateY = false }) {
     };
   }, []);
   const pathname = usePathname();
-
+  console.log('links', links)
   return (
     <>
       {links[0].href?.includes("/") &&
         links.map((link, index) => (
           <li key={index}>
             <Link
-              className={
-                pathname.split("/")[1] == link.href.split("/")[1]
-                  ? "active"
-                  : ""
+              className={link.className
+                // pathname.split("/")[1] == link?.href?.split("/")[1]
+                //   ? "active"
+                //   : ""
               }
               href={link.href}
             >

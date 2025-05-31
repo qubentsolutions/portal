@@ -51,7 +51,7 @@ export default function Nav2({ links }) {
             href="#"
             onClick={() => toggleParent1(index)}
             className={`mn-has-sub ${
-              item.subMenu.some((e1) =>
+              item?.subMenu?.some((e1) =>
                 e1.links.some(
                   (e2) => e2.href.split("/")[1] == pathname.split("/")[1]
                 )
@@ -67,7 +67,7 @@ export default function Nav2({ links }) {
               menuOpen[0] == index ? "mobile-sub-active" : ""
             } `}
           >
-            {item.subMenu.map((subItem, subIndex) => (
+            {item?.subMenu?.map((subItem, subIndex) => (
               <li className="mn-sub-multi" key={subIndex}>
                 {subItem.title && (
                   <span className="mn-group-title">{subItem.title}</span>
