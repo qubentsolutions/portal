@@ -1,6 +1,32 @@
 "use client";
 
+import { sendEmail } from "@/app/actions/sendEmail";
+import { useState } from "react";
+
 export default function Contact2() {
+  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  const [status, setStatus] = useState('');
+
+  const handleChange = (e) =>
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus('Sending...');
+
+    try {
+      const result = await sendEmail(formData);
+      if (result.success) {
+        setStatus('Email sent!');
+      } else {
+        setStatus(result.error || 'Something went wrong');
+      }
+    } catch (err) {
+      setStatus('Error sending email');
+    }
+  };
+console.log("status", status);
+
   return (
     <div className="container position-relative">
       <div className="row">
@@ -97,7 +123,7 @@ export default function Contact2() {
         <div className="col-md-6 mb-sm-50">
           {/* Contact Form */}
           <form
-            onSubmit={(e) => e.preventDefault()}
+            onSubmit={handleSubmit}
             className="form contact-form pe-lg-5"
             id="contact_form"
           >
@@ -115,6 +141,7 @@ export default function Contact2() {
                     pattern=".{3,100}"
                     required
                     aria-required="true"
+                    onChange={handleChange}
                   />
                 </div>
               </div>
@@ -131,6 +158,7 @@ export default function Contact2() {
                     pattern=".{5,100}"
                     required
                     aria-required="true"
+                    onChange={handleChange}
                   />
                 </div>
               </div>
@@ -146,6 +174,7 @@ export default function Contact2() {
                 placeholder="Enter your message"
                 defaultValue={""}
                 required
+                onChange={handleChange}
               />
             </div>
             <div className="row">
