@@ -68,8 +68,7 @@ export default async function MainPortfolioSinglePage3(props) {
                               data-wow-delay="0.2s"
                               data-wow-duration="1.2s"
                             >
-                              Branding, UI/UX Design, Front-end Development,
-                              Back-end Development
+                              Branding, UI/UX Design
                             </p>
                           </div>
                         </div>

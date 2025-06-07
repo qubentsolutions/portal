@@ -1,7 +1,7 @@
 export const footerLinks = [
   { name: "Privacy Policy", path: "#" },
   { name: "Terms & Conditions", path: "#" },
-  { name: "Presskit", path: "#" },
+  // { name: "Presskit", path: "#" },
 ];
 
 export const footerLinks2 = [
@@ -12,18 +12,18 @@ export const footerLinks2 = [
 ];
 
 export const socialLinks = [
-  {
-    href: "#",
-    text: "Instagram",
-  },
-  {
-    href: "#",
-    text: "Facebook",
-  },
-  {
-    href: "#",
-    text: "YouTube",
-  },
+  // {
+  //   href: "#",
+  //   text: "Instagram",
+  // },
+  // {
+  //   href: "#",
+  //   text: "Facebook",
+  // },
+  // {
+  //   href: "#",
+  //   text: "YouTube",
+  // },
   {
     href: "#",
     text: "LinkedIn",

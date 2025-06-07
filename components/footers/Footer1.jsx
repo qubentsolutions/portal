@@ -26,31 +26,32 @@ export default function Footer1({ dark = false }) {
             <Link href={"/"} className="mb-30">
               <Image
                 src="/assets/images/logo-dark.svg"
-                width={105}
-                height={34}
+                width={150}
+                height={60}
                 className="light-mode-logo"
                 alt="Your Company Logo"
+                style={{ marginLeft: "-10px" }}
               />
 
               <Image
                 src="/assets/images/logo-white.svg"
-                width={105}
-                height={34}
+                width={150}
+                height={60}
                 className="dark-mode-logo"
                 alt="Your Company Logo"
+                style={{ marginLeft: "-10px" }}
               />
             </Link>
             <p>
-              Integer auctor aliquet martor, sed lorem malesuada eros blandit
-              eget. Proin lacinia mortoc id odio vestibulum.
+              <b>Qubent Solutions LLP</b> <br></br>Intent Driven IT Company | Design with Empathy. Code with Clarity.
             </p>
             <div className="clearlinks">
               <strong>T.</strong>
-              <a href="tel:+18376528800">+1 837 652 8800</a>
+              <a href="tel:+919537146125">+91 95371 46125</a>
             </div>
             <div className="clearlinks">
               <strong>E.</strong>
-              <a href="mailto:ibthemes21@gmail.com">ibthemes21@gmail.com</a>
+              <a href="mailto:info@qubentsolutions.com">info@qubentsolutions.com</a>
             </div>
           </div>
           <div className="col-md-7 offset-md-1 offset-lg-2">
@@ -93,10 +94,10 @@ export default function Footer1({ dark = false }) {
         {/* Footer Text */}
         <div className="row text-gray">
           <div className="col-md-4 col-lg-3">
-            <b>© IB-Themes {new Date().getFullYear()}.</b>
+            <b>© Qubent Solutions 2025 {new Date().getFullYear()}.</b>
           </div>
           <div className="col-md-7 offset-md-1 offset-lg-2 clearfix">
-            <b>Based in London, United Kingdom.</b>
+            <b>Based in Ahmedabad, Gujarat, India</b>
             {/* Back to Top Link */}
             <div className="local-scroll float-end mt-n20 mt-sm-10">
               <a href="#top" className="link-to-top" onClick={scrollToTop}>

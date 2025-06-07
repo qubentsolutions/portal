@@ -3,25 +3,25 @@ export const faqs = [
     id: 1,
     question: "01. Discussion",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.",
+      "Every great product begins with a meaningful conversation. We take the time to understand your goals, challenges, and vision—aligning our strategy with your business needs before any design or code begins.",
   },
   {
     id: 2,
     question: "02. Design",
     answer:
-      "Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet dignissim pellentesque felis.",
+      "With a clear direction in place, we bring ideas to life through unique, user-centric design. From wireframes to polished UI, every element is crafted to reflect your brand and engage your audience effectively.",
   },
   {
     id: 3,
     question: "03. Development",
     answer:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.",
+      "Our team transforms designs into high-performance digital solutions. We follow clean, scalable coding practices using the latest technologies to ensure seamless functionality across all platforms.",
   },
   {
     id: 4,
     question: "04. Production",
     answer:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.",
+      "After rigorous testing and quality checks, your project goes live—flawlessly. We handle deployment with precision and provide ongoing support to ensure everything runs smoothly from day one.",
   },
 ];
 

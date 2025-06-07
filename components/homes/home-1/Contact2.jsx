@@ -1,6 +1,32 @@
 "use client";
 
+import { sendEmail } from "@/app/actions/sendEmail";
+import { useState } from "react";
+
 export default function Contact2() {
+  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  const [status, setStatus] = useState('');
+
+  const handleChange = (e) =>
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus('Sending...');
+
+    try {
+      const result = await sendEmail(formData);
+      if (result.success) {
+        setStatus('Email sent!');
+      } else {
+        setStatus(result.error || 'Something went wrong');
+      }
+    } catch (err) {
+      setStatus('Error sending email');
+    }
+  };
+console.log("status", status);
+
   return (
     <div className="container position-relative">
       <div className="row">
@@ -54,11 +80,11 @@ export default function Contact2() {
                 <h4 className="alt-features-title">Say hello</h4>
                 <div className="alt-features-descr clearlinks">
                   <div>
-                    <a href="mailto:ibthemes21@gmail.com">
-                      ibthemes21@gmail.com
+                    <a href="mailto:info@qubentsolutions.com">
+                      info@qubentsolutions.com
                     </a>
                   </div>
-                  <div>+1 837 652 8800</div>
+                  <div>+91 95371 46125</div>
                 </div>
               </div>
             </div>
@@ -85,7 +111,7 @@ export default function Contact2() {
                 </div>
                 <h4 className="alt-features-title">Location</h4>
                 <div className="alt-features-descr">
-                  123 King Street, London W6 9JG, United Kingdom
+                  Ahmedabad, Gujarat, India
                 </div>
               </div>
             </div>
@@ -97,7 +123,7 @@ export default function Contact2() {
         <div className="col-md-6 mb-sm-50">
           {/* Contact Form */}
           <form
-            onSubmit={(e) => e.preventDefault()}
+            onSubmit={handleSubmit}
             className="form contact-form pe-lg-5"
             id="contact_form"
           >
@@ -115,6 +141,7 @@ export default function Contact2() {
                     pattern=".{3,100}"
                     required
                     aria-required="true"
+                    onChange={handleChange}
                   />
                 </div>
               </div>
@@ -131,6 +158,7 @@ export default function Contact2() {
                     pattern=".{5,100}"
                     required
                     aria-required="true"
+                    onChange={handleChange}
                   />
                 </div>
               </div>
@@ -146,6 +174,7 @@ export default function Contact2() {
                 placeholder="Enter your message"
                 defaultValue={""}
                 required
+                onChange={handleChange}
               />
             </div>
             <div className="row">
@@ -184,7 +213,7 @@ export default function Contact2() {
           {/* Google Map */}
           <div className="map-boxed">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3071.5318265717196!2d-75.60465104752062!3d39.660249785873326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c703f3cdadbfdb%3A0x80d20252268fc006!2zMjQ1IFF1aWdsZXkgQmx2ZCBzdGUgaywgTmV3IENhc3RsZSwgREUgMTk3MjAsINCh0L_QvtC70YPRh9C10L3RliDQqNGC0LDRgtC4INCQ0LzQtdGA0LjQutC4!5e0!3m2!1suk!2sua!4v1662469609333!5m2!1suk!2sua"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235014.15049961975!2d72.5797426!3d23.0202434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1748698707475!5m2!1sen!2sin"
               width={600}
               height={450}
               style={{ border: 0 }}

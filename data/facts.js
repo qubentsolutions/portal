@@ -3,25 +3,25 @@ export const numberItems = [
     id: 1,
     delay: "0.4s",
     title: "28%",
-    description: "Resent tincidunt lacus sedenim posuere posuere nulla acusan.",
+    description: "Clear and Concise Communication increasing efficiency by 28%.",
   },
   {
     id: 2,
     delay: "0.6s",
-    title: "1.5k",
-    description: "Curabitur eu quam auctor nuca convallis metus nec feugia.",
+    title: "500+",
+    description: "Completed tasks including all projects.",
   },
   {
     id: 3,
     delay: "0.8s",
-    title: "30+",
-    description: "Pellentesque pharetra libero eget vestibulum ullamcorper.",
+    title: "10+",
+    description: "Delivered 10+ projects across various industries.",
   },
   {
     id: 4,
     delay: "1s",
     title: "2x",
-    description: "Suspendisse a scelerisque vitae rutrum posuere sec lacus.",
+    description: "Faster project delivery with our agile approach.",
   },
 ];
 export const numberItems2 = [

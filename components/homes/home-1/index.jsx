@@ -4,7 +4,6 @@ import Benefits from "@/components/homes/home-1/Benefits";
 import Blog from "@/components/homes/home-1/Blog";
 import Brands from "@/components/homes/home-1/Brands";
 import Contact from "@/components/homes/home-1/Contact";
-
 import Facts from "@/components/homes/home-1/Facts";
 import Faq from "@/components/homes/home-1/Faq";
 import Features from "@/components/homes/home-1/Features";
@@ -12,12 +11,10 @@ import NewsLetter from "@/components/homes/home-1/NewsLetter";
 import Portfolio from "@/components/homes/home-1/Portfolio";
 import Promo from "@/components/homes/home-1/Promo";
 import Service from "@/components/homes/home-1/Service";
-import Team from "@/components/homes/home-1/Team";
 import Testimonials from "@/components/homes/home-1/Testimonials";
 import Link from "next/link";
 import Testimonials2 from "./Teatimonials2";
 import Brands2 from "./Brands2";
-import dynamic from "next/dynamic";
 import Image from "next/image";
 import ParallaxContainer from "@/components/common/ParallaxContainer";
 export default function Home1({ onePage = false, dark = false }) {
@@ -34,7 +31,7 @@ export default function Home1({ onePage = false, dark = false }) {
             <div className="col-md-6">
               <h2 className="section-caption mb-xs-10">Our Story</h2>
               <h3 className="section-title mb-0">
-                <AnimatedText text="Better way to create stanning layouts." />
+                <AnimatedText text="Better way to create stanning layouts" />
               </h3>
             </div>
             <div className="col-md-5 offset-md-1 relative text-start text-md-end pt-40 pt-sm-20 local-scroll">
@@ -54,7 +51,7 @@ export default function Home1({ onePage = false, dark = false }) {
               </div>
               {/* End Decorative Dots */}
 
-              {onePage ? (
+              {/* {onePage ? (
                 <a
                   href="#team"
                   className="link-hover-anim underline align-middle"
@@ -102,19 +99,11 @@ export default function Home1({ onePage = false, dark = false }) {
                     ></i>
                   </span>
                 </Link>
-              )}
+              )} */}
             </div>
           </div>
           <About />
         </div>
-      </section>
-      <section
-        className={`page-section  scrollSpysection  ${
-          dark ? "bg-dark-2 light-content" : "bg-gray-light-1 "
-        }`}
-        id="team"
-      >
-        <Team />
       </section>
       <section
         className={`page-section  scrollSpysection  ${
@@ -147,7 +136,13 @@ export default function Home1({ onePage = false, dark = false }) {
                 clients.
               </p>
               <div className="local-scroll wow fadeInUp" data-wow-delay="0.2s">
-                {onePage ? (
+                 <a
+                    href="#contact"
+                    className="btn btn-mod btn-w btn-large btn-round btn-hover-anim"
+                  >
+                    <span>Request Price</span>
+                  </a>
+                {/* {onePage ? (
                   <a
                     href="#contact"
                     className="btn btn-mod btn-w btn-large btn-round btn-hover-anim"
@@ -161,7 +156,7 @@ export default function Home1({ onePage = false, dark = false }) {
                   >
                     <span>Request Price</span>
                   </Link>
-                )}
+                )} */}
               </div>
             </div>{" "}
             <Facts />
@@ -206,7 +201,13 @@ export default function Home1({ onePage = false, dark = false }) {
                 cultivate business solutions.
               </p>
               <div className="local-scroll">
-                {onePage ? (
+                <a
+                    href="#contact"
+                    className="btn btn-mod btn-large btn-round btn-hover-anim"
+                  >
+                    <span>Contact us</span>
+                  </a>
+                {/* {onePage ? (
                   <a
                     href="#contact"
                     className="btn btn-mod btn-large btn-round btn-hover-anim"
@@ -220,7 +221,7 @@ export default function Home1({ onePage = false, dark = false }) {
                   >
                     <span>Contact us</span>
                   </Link>
-                )}
+                )} */}
               </div>
             </div>
           </div>
@@ -232,15 +233,15 @@ export default function Home1({ onePage = false, dark = false }) {
       >
         <Benefits />{" "}
       </section>
-      <section
+      {/* <section
         className={`page-section pt-0 pb-0  ${dark ? "light-content" : ""}`}
       >
         {" "}
         {dark ? <Testimonials2 /> : <Testimonials />}
-      </section>
-      <section className={`page-section  ${dark ? " light-content" : ""}`}>
+      </section> */}
+      {/* <section className={`page-section  ${dark ? " light-content" : ""}`}>
         {dark ? <Brands2 /> : <Brands />}
-      </section>
+      </section> */}
       <section
         className="page-section bg-dark bg-dark-alpha-70 light-content"
         style={{
@@ -314,7 +315,13 @@ export default function Home1({ onePage = false, dark = false }) {
                 <h2 className="section-title mb-50 mb-sm-20">How we work?</h2>
                 <Faq />
                 <div className="local-scroll">
-                  {onePage ? (
+                  <a
+                      href="#contact"
+                      className="btn btn-mod btn-large btn-round btn-hover-anim"
+                    >
+                      <span>Start a Project</span>
+                    </a>
+                  {/* {onePage ? (
                     <a
                       href="#contact"
                       className="btn btn-mod btn-large btn-round btn-hover-anim"
@@ -328,7 +335,7 @@ export default function Home1({ onePage = false, dark = false }) {
                     >
                       <span>Start a Project</span>
                     </Link>
-                  )}
+                  )} */}
                 </div>
               </div>
             </div>
@@ -360,7 +367,7 @@ export default function Home1({ onePage = false, dark = false }) {
                 </span>
               </h3>
             </div>
-            <div className="col-md-5 offset-md-1 text-start text-md-end pt-40 pt-sm-20">
+            {/* <div className="col-md-5 offset-md-1 text-start text-md-end pt-40 pt-sm-20">
               <Link
                 href={`/main-blog-columns-2col`}
                 className="link-hover-anim underline align-middle"
@@ -368,7 +375,7 @@ export default function Home1({ onePage = false, dark = false }) {
               >
                 Read more in our blog <i className="mi-arrow-right size-18" />
               </Link>
-            </div>
+            </div> */}
           </div>
           <Blog />
           {/* Blog Posts Grid */}

@@ -3,7 +3,7 @@ import { toggleMobileMenu } from "@/utlis/toggleMobileMenu";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Nav2 from "./components/Nav2";
+import Nav from "./components/Nav";
 import LanguageSelect from "./components/LanguageSelect";
 
 export default function Header1Multipage({ links }) {
@@ -17,15 +17,15 @@ export default function Header1Multipage({ links }) {
           <Image
             src="/assets/images/logo-dark.svg"
             alt="Your Company Logo"
-            width={105}
-            height={34}
+            width={150}
+            height={60}
             className="light-mode-logo"
           />
           <Image
             src="/assets/images/logo-white.svg"
             alt="Your Company Logo"
-            width={105}
-            height={34}
+            width={150}
+            height={60}
             className="dark-mode-logo"
           />
         </Link>
@@ -44,15 +44,16 @@ export default function Header1Multipage({ links }) {
       <div className="inner-nav desktop-nav">
         <ul className="clearlist local-scroll">
           {/* Item With Sub */}
-          <Nav2 links={links} />
+          <Nav links={links} />
           {/* End Item With Sub */}
         </ul>
         <ul className="items-end clearlist">
           {/* Languages */}
-          <LanguageSelect />
+          {/* <LanguageSelect /> */}
           {/* End Languages */}
           <li>
-            <Link href="/main-pages-contact-1" className="opacity-1 no-hover">
+            {/* <Link href="/contact-us" className="opacity-1 no-hover"> */}
+            <Link href="#contact" className="opacity-1 no-hover">
               <span className="link-hover-anim underline" data-link-animate="y">
                 <span className="link-strong link-strong-unhovered">
                   Let's work together

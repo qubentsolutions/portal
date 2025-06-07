@@ -237,605 +237,75 @@ export const mainDemoOnepage = [
 ];
 
 export const menuItems = [
-  {
-    title: "Home",
-    subMenu: [
-      {
-        title: "Multi Page",
-        links: [
-          { href: "/main-multi-page", text: "Main Demo" },
-          { href: "/main-multi-page-typed-text", text: "Typed Text" },
-          { href: "/main-multi-page-image-parallax", text: "Image Parallax" },
-          {
-            href: "/main-multi-page-slider-fullscreen",
-            text: "Slider Fullscreen",
-          },
-          {
-            href: "/main-multi-page-slider-background",
-            text: "Slider Background",
-          },
-          { href: "/main-multi-page-bg-video", text: "BG Video HTML5" },
-          {
-            href: "/main-multi-page-bg-video-youtube",
-            text: "BG Video Youtube",
-          },
-          { href: "/main-multi-page-dark", text: "Dark Version" },
-        ],
-      },
-      {
-        title: "One Page",
-        links: [
-          { href: "/main-one-page", text: "Main Demo" },
-          { href: "/main-one-page-typed-text", text: "Typed Text" },
-          { href: "/main-one-page-image-parallax", text: "Image Parallax" },
-          {
-            href: "/main-one-page-slider-fullscreen",
-            text: "Slider Fullscreen",
-          },
-          {
-            href: "/main-one-page-slider-background",
-            text: "Slider Background",
-          },
-          { href: "/main-one-page-bg-video", text: "BG Video HTML5" },
-          { href: "/main-one-page-bg-video-youtube", text: "BG Video Youtube" },
-          { href: "/main-one-page-dark", text: "Dark Version" },
-        ],
-      },
-    ],
-  },
-  {
-    title: "Pages",
-    subMenu: [
-      {
-        title: "Group 1",
-        links: [
-          { href: "/main-pages-about-1", text: "About Us 1" },
-          { href: "/main-pages-about-2", text: "About Us 2" },
-          { href: "/main-pages-about-3", text: "About Us 3" },
-          { href: "/main-pages-services-1", text: "Services 1" },
-          { href: "/main-pages-services-2", text: "Services 2" },
-          { href: "/main-pages-services-3", text: "Services 3" },
-          { href: "/main-pages-clients", text: "Clients" },
-        ],
-      },
-      {
-        title: "Group 2",
-        links: [
-          { href: "/main-pages-team", text: "Team" },
-          { href: "/main-pages-faq-1", text: "FAQ 1" },
-          { href: "/main-pages-faq-2", text: "FAQ 2" },
-          { href: "/main-pages-pricing-1", text: "Pricing 1" },
-          { href: "/main-pages-pricing-2", text: "Pricing 2" },
-          { href: "/main-pages-contact-1", text: "Contact 1" },
-          { href: "/main-pages-contact-2", text: "Contact 2" },
-        ],
-      },
-      {
-        title: "Group 3",
-        links: [
-          { href: "/main-pages-gallery-1col", text: "Gallery Col 1" },
-          { href: "/main-pages-gallery-2col", text: "Gallery Col 2" },
-          { href: "/main-pages-gallery-3col", text: "Gallery Col 3" },
-          { href: "/main-pages-gallery-4col", text: "Gallery Col 4" },
-          { href: "/main-pages-account", text: "Login / Register" },
-          {
-            href: "/main-pages-under-construction",
-            text: "Under Construction",
-          },
-          { href: "/main-pages-404", text: "Error 404" },
-        ],
-      },
-    ],
-  },
-  {
-    title: "Elements",
-    subMenu: [
-      {
-        links: [
-          {
-            href: "/main-elements-accordions",
-            icon: "mi-circle-add",
-            text: "Accordions",
-          },
-          {
-            href: "/main-elements-alert-messages",
-            icon: "mi-circle-information",
-            text: "Alert Messages",
-          },
-          {
-            href: "/main-elements-animation",
-            icon: "mi-play",
-            text: "Animation",
-          },
-          {
-            href: "/main-elements-bars",
-            icon: "mi-bar-chart",
-            text: "Bars (Progress)",
-          },
-          { href: "/main-elements-buttons", icon: "mi-link", text: "Buttons" },
-          {
-            href: "/main-elements-cookie-banner",
-            icon: "mi-flag",
-            text: "Cookie Banner",
-          },
-          {
-            href: "/main-elements-features",
-            icon: "mi-grid",
-            text: "Feature Boxes",
-          },
-          {
-            href: "/main-elements-forms",
-            icon: "mi-three-rows",
-            text: "Form Fields",
-          },
-          { href: "/main-elements-grid", icon: "mi-layout", text: "Grid" },
-          {
-            href: "/main-elements-icons-brands",
-            icon: "mi-circle",
-            text: "Icons Brands",
-          },
-          {
-            href: "/main-elements-icons-iconmonstr",
-            icon: "mi-favorite",
-            text: "Icons Iconmonstr",
-          },
-          {
-            href: "/main-elements-icons-Ionicons",
-            icon: "mi-heart",
-            text: "Icons Ionicons",
-          },
-          {
-            href: "/main-elements-icons-monoicons",
-            icon: "mi-sun",
-            text: "Icons Monoicons",
-          },
-        ],
-      },
-      {
-        links: [
-          {
-            href: "/main-elements-images-lazyload",
-            icon: "mi-image",
-            text: "Images Lazyload",
-          },
-          {
-            href: "/main-elements-lightbox",
-            icon: "mi-window",
-            text: "Lightbox",
-          },
-          {
-            href: "/main-elements-sliders",
-            icon: "mi-circle-arrow-right",
-            text: "Sliders",
-          },
-          {
-            href: "/main-elements-sliders-lazyload",
-            icon: "mi-circle-arrow-right",
-            text: "Sliders Lazyload",
-          },
-          { href: "/main-elements-tabs", icon: "mi-two-columns", text: "Tabs" },
-          {
-            href: "/main-elements-tooltips",
-            icon: "mi-message",
-            text: "Tooltips",
-          },
-          {
-            href: "/main-elements-typography",
-            icon: "mi-text",
-            text: "Typography",
-          },
-          {
-            href: "/main-elements-video-sound",
-            icon: "mi-webcam",
-            text: "Video / Sound",
-          },
-          {
-            href: "/main-elements-header-dark-light",
-            icon: "mi-book",
-            text: "Header Dark",
-          },
-          {
-            href: "/main-elements-header-dark-transparent",
-            icon: "mi-book",
-            text: "Header Dark Transp",
-          },
-          {
-            href: "/main-elements-header-white",
-            icon: "mi-book",
-            text: "Header White",
-          },
-          {
-            href: "/main-elements-header-white-transparent",
-            icon: "mi-book",
-            text: "Header White Transp",
-          },
-          {
-            href: "/main-elements-header-white-after-scroll",
-            icon: "mi-book",
-            text: "Header Scroll-White",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: "Portfolio",
-    subItems: [
-      {
-        title: "Boxed",
-        links: [
-          { href: "/main-portfolio-boxed-2col", label: "2 Columns" },
-          { href: "/main-portfolio-boxed-3col", label: "3 Columns" },
-          { href: "/main-portfolio-boxed-4col", label: "4 Columns" },
-        ],
-      },
-      {
-        title: "Wide",
-        links: [
-          { href: "/main-portfolio-wide-2col", label: "2 Columns" },
-          { href: "/main-portfolio-wide-3col", label: "3 Columns" },
-          { href: "/main-portfolio-wide-4col", label: "4 Columns" },
-        ],
-      },
-      {
-        title: "Masonry",
-        links: [
-          { href: "/main-portfolio-masonry-2col", label: "2 Columns" },
-          { href: "/main-portfolio-masonry-3col", label: "3 Columns" },
-          { href: "/main-portfolio-masonry-4col", label: "4 Columns" },
-        ],
-      },
-      {
-        title: "Single",
-        links: [
-          { href: "/main-portfolio-single-1/1", label: "Single 1" },
-          { href: "/main-portfolio-single-2/1", label: "Single 2" },
-          { href: "/main-portfolio-single-3/1", label: "Single 3" },
-        ],
-      },
-    ],
-  },
-  {
-    title: "Blog",
-    subItems: [
-      {
-        title: "Classic",
-        links: [
-          { href: "/main-blog-classic-sidebar-left", label: "Sidebar Left" },
-          { href: "/main-blog-classic-sidebar-right", label: "Sidebar Right" },
-          { href: "/main-blog-classic-fullwidth", label: "Fullwidth" },
-        ],
-      },
-      {
-        title: "Columns",
-        links: [
-          { href: "/main-blog-columns-2col", label: "2 Columns" },
-          { href: "/main-blog-columns-3col", label: "3 Columns" },
-        ],
-      },
-      {
-        title: "Single",
-        links: [
-          { href: "/main-blog-single-sidebar-left/1", label: "Sidebar Left" },
-          { href: "/main-blog-single-sidebar-right/1", label: "Sidebar Right" },
-          { href: "/main-blog-single-fullwidth/1", label: "Fullwidth" },
-        ],
-      },
-    ],
-  },
+  { href: "#home", text: "Home", className: "active", dataBtnAnimate: "y" },
+  { href: "#about", text: "About", dataBtnAnimate: "y" },
+  { href: "#services", text: "Services", dataBtnAnimate: "y" },
+  { href: "#portfolio", text: "Portfolio", dataBtnAnimate: "y" },
+  { href: "#blog", text: "Blog", dataBtnAnimate: "y" },
+  { href: "#contact", text: "Contact", dataBtnAnimate: "y" },
+  // {
+  //   title: "Home",
+  //   href: "/",
+  //   text: "Home"
+  // },
+  // {
+  //   title: "About Us",
+  //   href: "/about-us",
+  //   text: "About Us"
+  // },
+  // {
+  //   title: "Services",
+  //   href: "/services",
+  //   text: "Services"
+  // },
+  // {
+  //   title: "Portfolio",
+  //   href: "/portfolio",
+  //   text: "Portfolio"
+  // },
+  // {
+  //   title: "Blogs",
+  //   href: "/blogs",
+  //   text: "Blogs"
+  // },
+  // {
+  //   title: "Contact Us",
+  //   href: "/contact-us",
+  //   text: "Contact Us"
+  // }
 ];
 
 export const menuItemsDark = [
   {
     title: "Home",
-    subMenu: [
-      {
-        title: "Multi Page",
-        links: [
-          { href: "/main-multi-page-dark", text: "Main Demo" },
-          { href: "/main-multi-page-typed-text-dark", text: "Typed Text" },
-          {
-            href: "/main-multi-page-image-parallax-dark",
-            text: "Image Parallax",
-          },
-          {
-            href: "/main-multi-page-slider-fullscreen-dark",
-            text: "Slider Fullscreen",
-          },
-          {
-            href: "/main-multi-page-slider-background-dark",
-            text: "Slider Background",
-          },
-          { href: "/main-multi-page-bg-video-dark", text: "BG Video HTML5" },
-          {
-            href: "/main-multi-page-bg-video-youtube-dark",
-            text: "BG Video Youtube",
-          },
-          { href: "/main-multi-page-dark-dark", text: "Dark Version" },
-        ],
-      },
-      {
-        title: "One Page",
-        links: [
-          { href: "/main-one-page-dark", text: "Main Demo" },
-          { href: "/main-one-page-typed-text-dark", text: "Typed Text" },
-          {
-            href: "/main-one-page-image-parallax-dark",
-            text: "Image Parallax",
-          },
-          {
-            href: "/main-one-page-slider-fullscreen-dark",
-            text: "Slider Fullscreen",
-          },
-          {
-            href: "/main-one-page-slider-background-dark",
-            text: "Slider Background",
-          },
-          { href: "/main-one-page-bg-video-dark", text: "BG Video HTML5" },
-          {
-            href: "/main-one-page-bg-video-youtube-dark",
-            text: "BG Video Youtube",
-          },
-          { href: "/main-one-page-dark", text: "Dark Version" },
-        ],
-      },
-    ],
+    href: "/dark",
+    text: "Home"
   },
   {
-    title: "Pages",
-    subMenu: [
-      {
-        title: "Group 1",
-        links: [
-          { href: "/main-pages-about-1-dark", text: "About Us 1" },
-          { href: "/main-pages-about-2-dark", text: "About Us 2" },
-          { href: "/main-pages-about-3-dark", text: "About Us 3" },
-          { href: "/main-pages-services-1-dark", text: "Services 1" },
-          { href: "/main-pages-services-2-dark", text: "Services 2" },
-          { href: "/main-pages-services-3-dark", text: "Services 3" },
-          { href: "/main-pages-clients-dark", text: "Clients" },
-        ],
-      },
-      {
-        title: "Group 2",
-        links: [
-          { href: "/main-pages-team-dark", text: "Team" },
-          { href: "/main-pages-faq-1-dark", text: "FAQ 1" },
-          { href: "/main-pages-faq-2-dark", text: "FAQ 2" },
-          { href: "/main-pages-pricing-1-dark", text: "Pricing 1" },
-          { href: "/main-pages-pricing-2-dark", text: "Pricing 2" },
-          { href: "/main-pages-contact-1-dark", text: "Contact 1" },
-          { href: "/main-pages-contact-2-dark", text: "Contact 2" },
-        ],
-      },
-      {
-        title: "Group 3",
-        links: [
-          { href: "/main-pages-gallery-1col-dark", text: "Gallery Col 1" },
-          { href: "/main-pages-gallery-2col-dark", text: "Gallery Col 2" },
-          { href: "/main-pages-gallery-3col-dark", text: "Gallery Col 3" },
-          { href: "/main-pages-gallery-4col-dark", text: "Gallery Col 4" },
-          { href: "/main-pages-account-dark", text: "Login / Register" },
-          {
-            href: "/main-pages-under-construction",
-            text: "Under Construction",
-          },
-          { href: "/main-pages-404", text: "Error 404" },
-        ],
-      },
-    ],
+    title: "About Us",
+    href: "/about-us-dark",
+    text: "About Us"
   },
   {
-    title: "Elements",
-    subMenu: [
-      {
-        links: [
-          {
-            href: "/main-elements-accordions-dark",
-            icon: "mi-circle-add",
-            text: "Accordions",
-          },
-          {
-            href: "/main-elements-alert-messages-dark",
-            icon: "mi-circle-information",
-            text: "Alert Messages",
-          },
-          {
-            href: "/main-elements-animation-dark",
-            icon: "mi-play",
-            text: "Animation",
-          },
-          {
-            href: "/main-elements-bars-dark",
-            icon: "mi-bar-chart",
-            text: "Bars (Progress)",
-          },
-          {
-            href: "/main-elements-buttons-dark",
-            icon: "mi-link",
-            text: "Buttons",
-          },
-          {
-            href: "/main-elements-cookie-banner-dark",
-            icon: "mi-flag",
-            text: "Cookie Banner",
-          },
-          {
-            href: "/main-elements-features-dark",
-            icon: "mi-grid",
-            text: "Feature Boxes",
-          },
-          {
-            href: "/main-elements-forms-dark",
-            icon: "mi-three-rows",
-            text: "Form Fields",
-          },
-          {
-            href: "/main-elements-grid-dark",
-            icon: "mi-layout",
-            text: "Grid",
-          },
-          {
-            href: "/main-elements-icons-brands-dark",
-            icon: "mi-circle",
-            text: "Icons Brands",
-          },
-          {
-            href: "/main-elements-icons-iconmonstr-dark",
-            icon: "mi-favorite",
-            text: "Icons Iconmonstr",
-          },
-          {
-            href: "/main-elements-icons-Ionicons-dark",
-            icon: "mi-heart",
-            text: "Icons Ionicons",
-          },
-          {
-            href: "/main-elements-icons-monoicons-dark",
-            icon: "mi-sun",
-            text: "Icons Monoicons",
-          },
-        ],
-      },
-      {
-        links: [
-          {
-            href: "/main-elements-images-lazyload-dark",
-            icon: "mi-image",
-            text: "Images Lazyload",
-          },
-          {
-            href: "/main-elements-lightbox-dark",
-            icon: "mi-window",
-            text: "Lightbox",
-          },
-          {
-            href: "/main-elements-sliders-dark",
-            icon: "mi-circle-arrow-right",
-            text: "Sliders",
-          },
-          {
-            href: "/main-elements-sliders-lazyload-dark",
-            icon: "mi-circle-arrow-right",
-            text: "Sliders Lazyload",
-          },
-          {
-            href: "/main-elements-tabs-dark",
-            icon: "mi-two-columns",
-            text: "Tabs",
-          },
-          {
-            href: "/main-elements-tooltips-dark",
-            icon: "mi-message",
-            text: "Tooltips",
-          },
-          {
-            href: "/main-elements-typography-dark",
-            icon: "mi-text",
-            text: "Typography",
-          },
-          {
-            href: "/main-elements-video-sound-dark",
-            icon: "mi-webcam",
-            text: "Video / Sound",
-          },
-          {
-            href: "/main-elements-header-dark",
-            icon: "mi-book",
-            text: "Header Dark",
-          },
-          {
-            href: "/main-elements-header-dark-transparent-dark",
-            icon: "mi-book",
-            text: "Header Dark Transp",
-          },
-
-          {
-            href: "/main-elements-header-white-after-scroll-dark",
-            icon: "mi-book",
-            text: "Header Scroll-White",
-          },
-        ],
-      },
-    ],
+    title: "Services",
+    href: "/services-dark",
+    text: "Services"
   },
   {
     title: "Portfolio",
-    subItems: [
-      {
-        title: "Boxed",
-        links: [
-          { href: "/main-portfolio-boxed-2col-dark", label: "2 Columns" },
-          { href: "/main-portfolio-boxed-3col-dark", label: "3 Columns" },
-          { href: "/main-portfolio-boxed-4col-dark", label: "4 Columns" },
-        ],
-      },
-      {
-        title: "Wide",
-        links: [
-          { href: "/main-portfolio-wide-2col-dark", label: "2 Columns" },
-          { href: "/main-portfolio-wide-3col-dark", label: "3 Columns" },
-          { href: "/main-portfolio-wide-4col-dark", label: "4 Columns" },
-        ],
-      },
-      {
-        title: "Masonry",
-        links: [
-          { href: "/main-portfolio-masonry-2col-dark", label: "2 Columns" },
-          { href: "/main-portfolio-masonry-3col-dark", label: "3 Columns" },
-          { href: "/main-portfolio-masonry-4col-dark", label: "4 Columns" },
-        ],
-      },
-      {
-        title: "Single",
-        links: [
-          { href: "/main-portfolio-single-1-dark/1", label: "Single 1" },
-          { href: "/main-portfolio-single-2-dark/1", label: "Single 2" },
-          { href: "/main-portfolio-single-3-dark/1", label: "Single 3" },
-        ],
-      },
-    ],
+    href: "/portfolio-dark",
+    text: "Portfolio"
   },
   {
-    title: "Blog",
-    subItems: [
-      {
-        title: "Classic",
-        links: [
-          {
-            href: "/main-blog-classic-sidebar-left-dark",
-            label: "Sidebar Left",
-          },
-          {
-            href: "/main-blog-classic-sidebar-right-dark",
-            label: "Sidebar Right",
-          },
-          { href: "/main-blog-classic-fullwidth-dark", label: "Fullwidth" },
-        ],
-      },
-      {
-        title: "Columns",
-        links: [
-          { href: "/main-blog-columns-2col-dark", label: "2 Columns" },
-          { href: "/main-blog-columns-3col-dark", label: "3 Columns" },
-        ],
-      },
-      {
-        title: "Single",
-        links: [
-          {
-            href: "/main-blog-single-sidebar-left-dark/1",
-            label: "Sidebar Left",
-          },
-          {
-            href: "/main-blog-single-sidebar-right-dark/1",
-            label: "Sidebar Right",
-          },
-          { href: "/main-blog-single-fullwidth-dark/1", label: "Fullwidth" },
-        ],
-      },
-    ],
+    title: "Blogs",
+    href: "/blog-dark",
+    text: "Blogs"
   },
+  {
+    title: "Contact Us",
+    href: "/contact-us-dark",
+    text: "Contact Us"
+  }
 ];
 
 export const allHomes = [
