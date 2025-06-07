@@ -15,7 +15,8 @@ export default function Blog() {
         >
           <div className="post-prev-container">
             <div className="post-prev-img">
-              <Link href={`/main-blog-single-sidebar-right/${elm.id}`}>
+              {/* <Link href={`/main-blog-single-sidebar-right/${elm.id}`}> */}
+              <Link href="#">
                 <Image
                   width={650}
                   height={412}
@@ -25,7 +26,8 @@ export default function Blog() {
               </Link>
             </div>
             <h4 className="post-prev-title">
-              <Link href={`/main-blog-single-sidebar-right/${elm.id}`}>
+              <Link href="#">
+              {/* <Link href={`/main-blog-single-sidebar-right/${elm.id}`}> */}
                 {elm.title}
               </Link>
             </h4>

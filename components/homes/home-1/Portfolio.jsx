@@ -108,8 +108,12 @@ export default function Portfolio() {
                   </div>
                 </a>
               ) : (
-                <Link
-                  href={`/main-portfolio-single-1/${item.id}`}
+                // <Link
+                //   href={`/main-portfolio-single-1/${item.id}`}
+                //   className={item.linkClassName}
+                // >
+                  <Link
+                  href="#"
                   className={item.linkClassName}
                 >
                   <div className="work-img">
