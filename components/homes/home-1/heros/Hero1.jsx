@@ -25,11 +25,11 @@ export default function Hero1() {
                   className="section-caption mb-30 mb-xs-10 wow fadeInUp"
                   data-wow-duration="1.2s"
                 >
-                  Resonance Creative Studio
+                  Qubent Solutions
                 </h2>
                 <h1 className="hs-title-1 mb-30">
                   <AnimatedText
-                    text={"Grow your business with a new website."}
+                    text={"Turning ideas into impact with intent-driven tech"}
                   />
                 </h1>
 
@@ -38,8 +38,7 @@ export default function Hero1() {
                   data-wow-delay="0.6s"
                   data-wow-duration="1.2s"
                 >
-                  Resonance is a full-service creative studio creating beautiful
-                  digital experiences and products.
+                  At Qubent Solutions, we design with empathy and code with clarity—building meaningful, scalable software that helps your business grow with purpose.
                 </p>
                 <div
                   className="local-scroll mt-n10 wow fadeInUp wch-unset"
@@ -51,15 +50,15 @@ export default function Hero1() {
                     href="#about"
                     className="btn btn-mod btn-large btn-round btn-hover-anim align-middle me-2 me-sm-5 mt-10"
                   >
-                    <span>Discover now</span>
+                    <span>Let’s Build Together</span>
                   </a>
-                  <a
+                  {/* <a
                     onClick={() => setOpen(true)}
                     className="link-hover-anim align-middle lightbox mfp-iframe mt-10"
                     data-link-animate="y"
                   >
                     <i className="icon-play size-13 me-1" /> How it works?
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

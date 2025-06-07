@@ -17,15 +17,15 @@ export default function Header1Multipage({ links }) {
           <Image
             src="/assets/images/logo-dark.svg"
             alt="Your Company Logo"
-            width={105}
-            height={34}
+            width={150}
+            height={60}
             className="light-mode-logo"
           />
           <Image
             src="/assets/images/logo-white.svg"
             alt="Your Company Logo"
-            width={105}
-            height={34}
+            width={150}
+            height={60}
             className="dark-mode-logo"
           />
         </Link>
@@ -49,10 +49,11 @@ export default function Header1Multipage({ links }) {
         </ul>
         <ul className="items-end clearlist">
           {/* Languages */}
-          <LanguageSelect />
+          {/* <LanguageSelect /> */}
           {/* End Languages */}
           <li>
-            <Link href="/main-pages-contact-1" className="opacity-1 no-hover">
+            {/* <Link href="/contact-us" className="opacity-1 no-hover"> */}
+            <Link href="#contact" className="opacity-1 no-hover">
               <span className="link-hover-anim underline" data-link-animate="y">
                 <span className="link-strong link-strong-unhovered">
                   Let's work together

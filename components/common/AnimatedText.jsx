@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function AnimatedText({
-  text = "Grow your business with a new website.",
+  text = "Turning Ideas into Impact with Intent-Driven Tech.",
 }) {
   return (
     <>

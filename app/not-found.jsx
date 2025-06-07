@@ -24,15 +24,15 @@ export default function MainAboutPage1() {
                     <Image
                       src="/assets/images/logo-white.svg"
                       alt="Your Company Logo"
-                      width={105}
-                      height={34}
+                      width={150}
+                      height={60}
                       className="logo-white"
                     />
                     <Image
                       src="/assets/images/logo-dark.svg"
                       alt="Your Company Logo"
-                      width={105}
-                      height={34}
+                      width={150}
+                      height={60}
                       className="logo-dark"
                     />
                   </Link>
@@ -46,14 +46,14 @@ export default function MainAboutPage1() {
                 <div className="inner-nav desktop-nav">
                   <ul className="clearlist scroll-nav local-scroll justify-content-end">
                     <li className="active">
-                      <a href="mailto:ibthemes21@gmail.com">
-                        <i className="mi-email align-center" />
-                        ibthemes21@gmail.com
+                      <a href="mailto:info@qubentsolutions.com" className="">
+                        <i className="mi-email align-center me-1" />
+                        info@qubentsolutions.com
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i className="mi-call align-center" /> 0307-567-890
+                        <i className="mi-call align-center" /> +91 95371 46125
                       </a>
                     </li>
                   </ul>

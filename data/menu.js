@@ -237,36 +237,42 @@ export const mainDemoOnepage = [
 ];
 
 export const menuItems = [
-  {
-    title: "Home",
-    href: "/",
-    text: "Home"
-  },
-  {
-    title: "About Us",
-    href: "/about-us",
-    text: "About Us"
-  },
-  {
-    title: "Services",
-    href: "/services",
-    text: "Services"
-  },
-  {
-    title: "Contact Us",
-    href: "/contact-us",
-    text: "Contact Us"
-  },
-  {
-    title: "Portfolio",
-    href: "/portfolio",
-    text: "Portfolio"
-  },
-  {
-    title: "Blogs",
-    href: "/blogs",
-    text: "Blogs"
-  }
+  { href: "#home", text: "Home", className: "active", dataBtnAnimate: "y" },
+  { href: "#about", text: "About", dataBtnAnimate: "y" },
+  { href: "#services", text: "Services", dataBtnAnimate: "y" },
+  { href: "#portfolio", text: "Portfolio", dataBtnAnimate: "y" },
+  { href: "#blog", text: "Blog", dataBtnAnimate: "y" },
+  { href: "#contact", text: "Contact", dataBtnAnimate: "y" },
+  // {
+  //   title: "Home",
+  //   href: "/",
+  //   text: "Home"
+  // },
+  // {
+  //   title: "About Us",
+  //   href: "/about-us",
+  //   text: "About Us"
+  // },
+  // {
+  //   title: "Services",
+  //   href: "/services",
+  //   text: "Services"
+  // },
+  // {
+  //   title: "Portfolio",
+  //   href: "/portfolio",
+  //   text: "Portfolio"
+  // },
+  // {
+  //   title: "Blogs",
+  //   href: "/blogs",
+  //   text: "Blogs"
+  // },
+  // {
+  //   title: "Contact Us",
+  //   href: "/contact-us",
+  //   text: "Contact Us"
+  // }
 ];
 
 export const menuItemsDark = [
@@ -286,11 +292,6 @@ export const menuItemsDark = [
     text: "Services"
   },
   {
-    title: "Contact Us",
-    href: "/contact-us-dark",
-    text: "Contact Us"
-  },
-  {
     title: "Portfolio",
     href: "/portfolio-dark",
     text: "Portfolio"
@@ -299,6 +300,11 @@ export const menuItemsDark = [
     title: "Blogs",
     href: "/blog-dark",
     text: "Blogs"
+  },
+  {
+    title: "Contact Us",
+    href: "/contact-us-dark",
+    text: "Contact Us"
   }
 ];
 

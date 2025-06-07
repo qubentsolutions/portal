@@ -142,25 +142,23 @@ export default function MainAboutPage3Dark() {
                     <div className="col-sm-7 col-xl-6 offset-xl-1 mt-n10">
                       <div className="wow linesAnimIn" data-splitting="lines">
                         <p className="lead mt-0 mb-40">
-                          Resonance is an innovative and dynamic full-service
-                          creative studio that is passionate about crafting
-                          exceptional digital experiences and products. We
-                          specialize in a wide range of creative disciplines,
-                          including branding, design, and engineering, and we
-                          are committed to producing work that not only looks
-                          amazing but also functions seamlessly.
+                         Qubent Solutions is a passionate software startup
+												focused on turning complex challenges into smart,
+												scalable digital solutions. We help businesses grow with
+												clean design, robust tech, and an agile mindset — making
+												enterprise-grade technology accessible to all.
                         </p>
                         <p className="text-gray mb-40">
-                          Our design team is made up of skilled professionals
-                          who are passionate about creating beautiful and
-                          engaging digital experiences. We work closely with our
-                          clients to develop websites, apps, and other digital
-                          products that are not only visually stunning but also
-                          intuitive and user-friendly. Our design process is
-                          iterative and collaborative, and we always strive to
-                          ensure that our clients are completely satisfied with
-                          the final product. Finally, our engineering team is
-                          dedicated to bringing our designs to life.
+                          We may be new, but our foundation is strong — built on
+												hands-on experience, deep curiosity, and a shared belief
+												that good design and clean code can change how
+												businesses operate. Our approach is rooted in close
+												collaboration, thoughtful strategy, and continuous
+												innovation. From intuitive UI/UX to robust backend
+												systems and DevOps-ready deployments, we deliver more
+												than software — we build relationships that grow with
+												you. At Qubent, we’re not just here to follow trends —
+												we’re here to help you shape the future.
                         </p>
                       </div>
                       <div
